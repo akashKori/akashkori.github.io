@@ -3,8 +3,23 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 
 const skills = [
-  "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js",
-  "Tailwind CSS", "Node.js", "Git", "Figma", "Responsive Design", "UI/UX"
+  "JavaScript",
+  "ReactJS",
+  "TypeScript",
+  "REST API",
+  "GraphQL",
+  "NextJS",
+  "CSS",
+  "Web Security",
+  "D3.js",
+  "Site Performance",
+  "HighCharts",
+  "Webpack",
+  "Dexie",
+  "Data Structure",
+  "Algorithm",
+  "System Design",
+  "Micro FrontEnd"
 ];
 
 export default function About() {
@@ -36,13 +51,13 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-on-scroll">
             <h3 className="text-2xl font-bold">
-              Full-Stack Developer with a passion for creating interactive experiences
+             I am working as an SDE IV at Juniper Networks, where I am involved in developing reusable components following SOLID principles. My responsibilities include reviewing code, working closely with the application team to address high- priority issues.
             </h3>
             <p>
               Hello! I'm a passionate developer who enjoys creating elegant solutions to complex problems. I have experience working with various web technologies and frameworks.
             </p>
             <p>
-              My journey in web development started 3 years ago, and I've been continuously learning and improving my skills since then. I believe in writing clean, maintainable code and creating user-friendly interfaces.
+              My journey in web development started 10 years ago, and I've been continuously learning and improving my skills since then. I believe in writing clean, maintainable code and creating user-friendly interfaces.
             </p>
             <p>
               When I'm not coding, you can find me reading tech blogs, contributing to open source, or exploring new technologies.
@@ -63,14 +78,20 @@ export default function About() {
               <div className="grid grid-cols-2 gap-6 mt-8">
                 <div>
                   <h4 className="font-medium text-muted-foreground mb-2">Education</h4>
-                  <p>BS in Computer Science</p>
-                  <p className="text-sm text-muted-foreground">University Name, 2018-2022</p>
+                  <p>B.Tech in computer science and engineering</p>
+                  <p className="text-sm text-muted-foreground">NIT Raipur, 2005-2009</p>
                 </div>
 
                 <div>
                   <h4 className="font-medium text-muted-foreground mb-2">Experience</h4>
-                  <p>Frontend Developer</p>
-                  <p className="text-sm text-muted-foreground">Company Name, 2022-Present</p>
+                  <p>SDE IV</p>
+                  <p className="text-sm text-muted-foreground">Juniper Network, 11/2021 - Present</p>
+
+                  <p>Senior software engineer</p>
+                  <p className="text-sm text-muted-foreground">Sabre Inc., 03/2018 - 11/2021</p>
+
+                  <p>Senior software engineer</p>
+                  <p className="text-sm text-muted-foreground">IncRev India, 06/2014 - 01/2018</p>
                 </div>
               </div>
             </CardContent>

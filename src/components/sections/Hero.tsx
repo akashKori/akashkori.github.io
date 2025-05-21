@@ -10,7 +10,7 @@ export default function Hero() {
           <div className="animate-fade-in">
             <p className="text-accent font-medium mb-2">Hello, I'm</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-              Your Name
+              Akash kori
             </h1>
             <h2 className="text-2xl md:text-3xl text-muted-foreground mb-6">
               Front-end Developer
@@ -34,7 +34,7 @@ export default function Hero() {
             <div className="w-60 h-60 md:w-80 md:h-80 rounded-full bg-primary/10 mx-auto overflow-hidden relative">
               {/* This div represents the profile image area - you can add an actual image here */}
               <div className="absolute inset-0 flex items-center justify-center text-3xl font-bold text-primary/30">
-                Profile Image
+                <img src="https://lh3.googleusercontent.com/a/ACg8ocK73rYjQxRsyrI15u_48yNwfZTxzEFiLwkdVqQm39PipOmoIsw=s96-c" alt="Profile" className="w-full h-full object-cover rounded-full" />
               </div>
             </div>
             <div className="absolute -bottom-10 -right-10 w-60 h-60 rounded-full bg-accent/10 -z-10"></div>
