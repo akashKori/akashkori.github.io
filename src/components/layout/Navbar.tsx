@@ -46,6 +46,17 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const donwloadResume=()=>{
+      // URL of the file you want to download
+      const fileUrl = "https://drive.google.com/drive/folders/1iZh7M31fDQxKjB_3ioZ8u1Q8TFL6ckwD"; // Replace with your actual URL
+      
+      // Create an anchor tag and programmatically click it to download the file
+      const link = document.createElement("a");
+      link.href = fileUrl;
+      link.download = "downloaded-file.pdf"; // This is the default file name
+      link.click();
+  }
+
   return (
     <header
       className={cn(
@@ -73,7 +84,7 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
-          <Button variant="outline" className="ml-2">
+          <Button variant="outline" className="ml-2" onClick={donwloadResume}>
             Resume
           </Button>
         </nav>
