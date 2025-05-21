@@ -3,6 +3,13 @@ import { Button } from "@/components/ui/button";
 import { ArrowDown, Github } from "lucide-react";
 
 export default function Hero() {
+
+  const githubProfileUrl = 'https://github.com/akashKori';
+
+  const openGithubProfile = () => {
+    window.open(githubProfileUrl, '_blank');
+  }
+
   return (
     <section id="home" className="min-h-screen flex items-center pt-16">
       <div className="container">
@@ -20,7 +27,7 @@ export default function Hero() {
               using modern technologies.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button className="gap-2" size="lg">
+              <Button className="gap-2" size="lg" onClick={openGithubProfile}>
                 <Github className="h-5 w-5" />
                 GitHub Profile
               </Button>

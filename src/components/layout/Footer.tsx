@@ -16,7 +16,7 @@ export default function Footer() {
           
           <div className="flex items-center space-x-4 mt-4 md:mt-0">
             <a 
-              href="https://github.com" 
+              href="https://github.com/akashKori" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-background hover:bg-accent/10 transition-colors"
@@ -25,7 +25,7 @@ export default function Footer() {
               <span className="sr-only">GitHub</span>
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/akash-kori-69217015/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-background hover:bg-accent/10 transition-colors"
@@ -34,7 +34,7 @@ export default function Footer() {
               <span className="sr-only">LinkedIn</span>
             </a>
             <a 
-              href="mailto:your-email@example.com" 
+              href="mailto:akori2029@gmail.com" 
               className="p-2 rounded-full bg-background hover:bg-accent/10 transition-colors"
             >
               <Mail className="h-5 w-5" />
