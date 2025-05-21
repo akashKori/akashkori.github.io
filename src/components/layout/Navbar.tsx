@@ -48,7 +48,7 @@ export default function Navbar() {
 
   const donwloadResume=()=>{
       // URL of the file you want to download
-      const fileUrl = "https://drive.google.com/drive/folders/1iZh7M31fDQxKjB_3ioZ8u1Q8TFL6ckwD"; // Replace with your actual URL
+      const fileUrl = "https://drive.google.com/uc?export=download&id=1COvlfQNK0KxAmfC6aK3MUJhT9H-pnwE6"; 
       
       // Create an anchor tag and programmatically click it to download the file
       const link = document.createElement("a");

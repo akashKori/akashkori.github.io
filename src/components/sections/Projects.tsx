@@ -21,40 +21,45 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "E-commerce Dashboard",
-    description: "A responsive admin dashboard for e-commerce stores with data visualization and user management.",
+    title: "JEI",
+    description: "A web application for managing and tracking JEI (Juniper energy intelligence) data.",
     image: "placeholder.svg",
-    tags: ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
+    tags: ["React", "TypeScript", "Tailwind CSS", "D3.js"],
     category: ["web"],
-    githubUrl: "https://github.com",
-    demoUrl: "https://example.com",
+    githubUrl: "",
+    demoUrl: "",
   },
   {
     id: 2,
-    title: "Personal Finance Tracker",
-    description: "A web app for tracking personal expenses and income with budgeting features.",
+    title: "Slipstream component & framework",
+    description: `The Slipstream component is a repository created by our
+                  team and is utilized by all the application teams. It
+                  comprises more than 27 reusable components, including
+                  basic, complex, and graph components essential for
+                  enterprise UI applications. The Slipstream components
+                  are built upon class-based components and are
+                  developed on top of the Ant Design (AntD) library, D3,
+                  and Highcharts.
+                  In contrast, the Slipstream framework is based on a
+                  micro-front-end architecture design, providing various
+                  plugins, including some default ones, to the application
+                  teams.Internally, we use the Slipstream components for
+                  UI elements.
+                  Currently, we are working on a new library, which is a
+                  rewrite of the Slipstream component using the new open-
+                  source library Fluent UI to address accessibility issues.`,
     image: "placeholder.svg",
-    tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Ant Design", "D3", "Highcharts"],
     category: ["web"],
-    githubUrl: "https://github.com",
-    demoUrl: "https://example.com",
-  },
-  {
-    id: 3,
-    title: "Weather App",
-    description: "A mobile-friendly weather application with forecast data and location tracking.",
-    image: "placeholder.svg",
-    tags: ["React Native", "Expo", "API Integration"],
-    category: ["mobile"],
-    githubUrl: "https://github.com",
-    demoUrl: "https://example.com",
+    githubUrl: "",
+    demoUrl: "",
   },
   {
     id: 4,
     title: "Portfolio Website",
     description: "A personal portfolio website to showcase projects and skills.",
     image: "placeholder.svg",
-    tags: ["HTML", "CSS", "JavaScript", "Figma"],
+    tags: ["HTML", "CSS", "JavaScript", "React", "TypeScript"],
     category: ["web", "design"],
     githubUrl: "https://github.com",
     demoUrl: "https://example.com",
